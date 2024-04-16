@@ -92,7 +92,7 @@ submitBtn.addEventListener('click', () => {
       loadQuiz();
     } else {
       quiz.innerHTML = `
-      <h2>나를 ${score}/${quizData.length} 만큼 알고 있군요~><  </h2>
+      <h2>저를 ${score}/${quizData.length} 만큼 알고 있군요~><  </h2>
 
       <button onClick="location.reload()">다시 시작</button>
       `
